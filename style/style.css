@@ -17,6 +17,7 @@ header{
     padding: 15px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 .logo{
     font-size: 25px;
@@ -139,7 +140,8 @@ header{
 }
 .hero-img {
     position: relative;
-    bottom: 100px;
+    bottom: 50px;
+    left: 5vw;
     max-width: 50%;
 
 }
@@ -148,6 +150,51 @@ header{
     bottom: 20vh;
     max-width: 100%;
 }
+
+/*      About Section   */
+
+.about-section{
+    display: flex;
+    max-width: 100%;
+    padding: 10px;
+    /*align-items: center;*/
+    /*gap: 1.5rem;*/
+}
+.about-section>.about-img{
+    max-width: 50%;
+}
+.about-img>img{
+    max-width: 100%;
+    position: relative;
+    bottom: 25vh;
+}
+
+.about-section >.about-text{
+    max-width: 100%;
+    position: relative;
+    top: 35vh;
+}
+.about-text>h2{
+    font-size: 60px;
+}
+.about-text>h2>span{
+    color: #4A237C;
+}
+.about-text>h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: snow;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text>p{
+    max-width: 90%;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
 
 
 /*  Animation   */
