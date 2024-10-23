@@ -196,6 +196,105 @@ header{
 }
 
 
+/*    assigment-section    */
+.assigment-section{
+    position: relative;
+    bottom: 40vh;
+    color: aliceblue;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 20rem;
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 5px;
+}
+.sub-title>span {
+    color:#4A237C;
+}
+.container{
+    padding: 90px;
+}
+.assigment-list{
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill,minmax(259px,1fr));*/
+    /*grid-template-columns: repeat(auto-fill,minmax(389px,1fr));*/
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.assigment-list>div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #4A237C,
+    1px 1px 20px #7320db;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center;
+}
+.assigment-list>div>i{
+    color:#4A237C;
+    font-size: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.assigment-list>div>h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.assigment-list>div>a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+
+
+}
+.read{
+    display: inline-block;
+    padding: 10px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #4A237C,
+    0 0 25px #4A237C;
+}
+.read:hover{
+    /*background: #00eeff;*/
+    /*color: #1a0332;*/
+    /*box-shadow: 0 0 20px #00eeff;*/
+    box-shadow: 0 0 5px #4A237C,
+    0 0 25px #5c1bb2,
+    0 0 50px #45167c,
+    0 0 100px #33105b,
+    0 0 200px #230a46;
+}
+.assigment-list>div:hover{
+    transform: translateY(-15px);
+}
+
+
+
 
 /*  Animation   */
 @keyframes slideRight {
