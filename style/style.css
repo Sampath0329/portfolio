@@ -293,6 +293,150 @@ header{
     transform: translateY(-15px);
 }
 
+/*      Skill       */
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align all content */
+    margin: 0 auto; /* Center the entire section */
+    padding: 50px;
+    position: relative;
+    bottom: 48vh;
+}
+.skill>h2{
+    font-size: 60px;
+    margin-bottom: -50px;
+}
+.skill>h2>span{
+    color: #4A237C;
+}
+.spac-timeline {
+    padding: 0;
+    max-width: 50%;
+    margin: 90px 0;
+
+    width: 90%; /* Allow it to take full width */
+}
+.spac-timeline ul {
+    margin: 0;
+    padding: 0;
+}
+.spac-timeline li {
+    margin: 4rem 0; /* Adjust vertical margin */
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.spac-timeline-content {
+    width: 50%;
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #4A237C;
+    padding-bottom: 60px;
+}
+.spac-timeline-text {
+    max-width: 80vw;
+}
+.spac-timeline-text h5 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+.spac-timeline-text p {
+    font-size: 15px;
+    color: #dadbdf;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.spac-timeline-number {
+    position: absolute;
+    left: 0;
+    top: -35px;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 67px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    font-size: 18px;
+}
+.spac-timeline-icon {
+    position: absolute;
+    right: -70px;
+    top: -70px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #5e2f99, #361263);
+}
+.spac-timeline li:nth-child(even) {
+    flex-direction: row-reverse;
+
+}
+.spac-timeline li:nth-child(even) .spac-timeline-number {
+    left: auto;
+    right: 0;
+}
+.spac-timeline li:nth-child(even) .spac-timeline-icon {
+    right: auto;
+    left: -75px;
+}
+.spac-timeline li:nth-child(even) .spac-timeline-content {
+    border-right: 1px solid transparent;
+    border-left: 2px solid #4A237C;
+}
+.spac-timeline li:last-child .spac-timeline-content {
+    padding-bottom: 0;
+    border-right: 0;
+}
+.spac-timeline li:first-child .spac-timeline-content {
+    border-right: 1px solid #4A237C;
+    border-left: 2px solid transparent;
+}
+.skill-icon {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin-top: -8rem;
+}
+.skill-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.skill-title>i{
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    right: 0.5vw;
+    top: 0.5vh;
+    color: #6331a0;
+}
+.icon {
+    display: flex;
+    gap: 1vw;
+}
+.icon > div > i {
+    position: relative;
+    top: 2vh;
+    font-size: 5rem;
+}
+.icon > div > i:hover {
+    text-shadow: 0 0 10px #4A237C,0 0 20px #4A237C,0 0 40px #4A237C;
+}
+
 
 
 
