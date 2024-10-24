@@ -336,21 +336,21 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid #4A237C;
+    border-top: 0.1rem solid #4A237C;
     padding-bottom: 60px;
 }
 .spac-timeline-text {
     max-width: 80vw;
 }
 .spac-timeline-text h5 {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #ffffff;
     text-align: center;
     margin: 0;
     padding: 0 0 10px 0;
 }
 .spac-timeline-text p {
-    font-size: 15px;
+    font-size: 1rem;
     color: #dadbdf;
     text-align: center;
     margin: 0;
@@ -372,14 +372,14 @@ header{
 }
 .spac-timeline-icon {
     position: absolute;
+    justify-content: center;
     right: -70px;
     top: -70px;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 8rem;
+    height: 8rem;
     display: flex;
     align-items: center;
-    justify-content: center;
     background: linear-gradient(to right, #5e2f99, #361263);
 }
 .spac-timeline li:nth-child(even) {
@@ -391,12 +391,11 @@ header{
     right: 0;
 }
 .spac-timeline li:nth-child(even) .spac-timeline-icon {
-    right: auto;
-    left: -75px;
+    right: 20vw;
 }
 .spac-timeline li:nth-child(even) .spac-timeline-content {
     border-right: 1px solid transparent;
-    border-left: 2px solid #4A237C;
+    border-left: 0.1rem solid #4A237C;
 }
 .spac-timeline li:last-child .spac-timeline-content {
     padding-bottom: 0;
@@ -437,7 +436,96 @@ header{
     text-shadow: 0 0 10px #4A237C,0 0 20px #4A237C,0 0 40px #4A237C;
 }
 
+/*      project     */
+.portfolio{
+    position: relative;
+    bottom: 47vh;
+}
+.main-text{
+    padding-top: 130px;
+    margin-top: 200px;
 
+}
+.main-text>h2{
+    font-size: 60px;
+    line-height: 1;
+    padding: 50px;
+    text-align: center;
+}
+.main-text>h2>span{
+    color: #4A237C;
+}
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ensures responsive behavior */
+    gap: 20px; /* Adds space between the grid items */
+    justify-items: center; /* Centers the grid items horizontally */
+    padding: 20px;
+}
+.row {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; /* Ensures the image inside is centered */
+    align-items: center; /* Centers vertically */
+}
+.row>img{
+    width: 80%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.1s;
+    background: transparent;
+}
+.layer{
+    width: 89%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.1),#4A237C);
+    position: absolute;
+    border-radius: 8px;
+    left: 34px;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+.layer>h5{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.layer>p{
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+.layer>a>i{
+    color: red;
+    margin-top: 20px;
+    font-size: 30px;
+    background: #000000;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.row:hover>img{
+    transform: scale(1.1);
+    border-radius: 10% 10% 0 0;
+}
+.row:hover>.layer{
+    height: 100%;
+
+}
 
 
 /*  Animation   */
