@@ -1,0 +1,30 @@
+
+/*      Mobile Large = 425px        */
+@media all and (min-width: 376px) and (max-width: 425px) {
+    *{
+        max-width: 425px;
+    }
+/*    header Section    */
+    header{
+    }
+    .logo{
+        font-size: 0.8rem;
+        margin-left: 2px;
+        font-weight: 600;
+        cursor: default;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+    }
+    .navbar>a{
+        display: inline-block;
+        font-size: 0.8rem;
+        color: #0c64e7;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 3px;
+        transition: .3s;
+        opacity: 0;
+        animation:  slideTop .5s ease forwards;
+        animation-delay:  calc(.2s * var(--i));
+    }
+}
