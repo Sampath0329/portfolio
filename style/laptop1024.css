@@ -11,7 +11,7 @@
     }
     .navbar>a{
         position: relative;
-        left: 3vw;
+        /*left: 3vw;*/
         font-size: 20px;
         margin-left: 25px;
     }
@@ -47,6 +47,7 @@
     }
     /*      About Section   */
     .about-section{
+        overflow: hidden;
         bottom: 20vw;
     }
     .about-text>h2{
@@ -152,14 +153,40 @@
     .portfolio{
         bottom: 35vw;
     }
+    .main-text>h2{
+        font-size: 3rem;
+    }
+    .layer{
+        left: 18px;
+    }
+    .layer>h5{
+        position: relative;
+        left: 1vw;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .layer>p{
+        font-size: 1rem;
+        line-height: 1;
+        font-weight: 900;
+    }
 
-    /*      Contact     */
+
+        /*      Contact     */
     .contact{
         position: relative;
         bottom: -4vw;
     }
+    .last-text{
+        display: flex;
+        justify-content: center;
+    }
 
     .last-text>p{
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        max-width: 90%;
         padding: 0;
         margin-top: 0;
         bottom: -9vw;
