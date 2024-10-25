@@ -27,4 +27,60 @@
         animation:  slideTop .5s ease forwards;
         animation-delay:  calc(.2s * var(--i));
     }
-}
+    /*      Hero section     */
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-img{
+        position: relative;
+        left: -24vw;
+        max-width: 100%;
+        order: 0;
+    }
+    .hero-img>img{
+        max-width: 190%;
+    }
+    .hero-content{
+        position: relative;
+        top: -30vw;
+        left: -14vw;
+        order: 1;
+        max-width: 100%;
+    }
+    .hero-content > h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .hero-content > h1 {
+        width: 150%;
+        font-size: 2rem;
+        font-weight: 700;
+        padding: -3px 0;
+    }
+    .hero-content > h1 > span{
+        font-size: 2rem;
+        color: #7309f8;
+        text-shadow: 0 0 3px #7309f8;
+    }
+    .hero-content > h3:nth-of-type(2) {
+        width: 160%;
+        position: relative;
+        top: 2vw;
+    }
+    .hero-content > p {
+        position: relative;
+        text-align: center;
+        top: 2vw;
+        width: 150%;
+    }
+    .hero-social-media {
+        text-align: center;
+        width: 155%;
+    }
+    .btn-more-about {
+        position: relative;
+        left: 16vw;
+    }
+
+    }
