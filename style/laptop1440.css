@@ -1,0 +1,27 @@
+/*      Laptop 1440px       */
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+    *{
+        max-width: 1440px;
+    }
+/*    header section    */
+    .hero-section{
+        position: relative;
+        top: 10vh;
+    }
+    .hero-content{
+        top: 10vh;
+    }
+    .hero-content>p{
+        width: 114%;
+    }
+    .hero-img {
+        bottom: 300px;
+        left: -0.1vw;
+    }
+    .hero-img>img{
+        max-width: 120%;
+    }
+
+
+    }
