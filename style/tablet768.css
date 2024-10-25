@@ -15,6 +15,7 @@
 
     /*      Hero section     */
     .hero-section {
+        overflow: hidden;
         padding: 20px;
         position: relative;
         top: 16vw;
@@ -56,6 +57,7 @@
 
     /*      About Section   */
     .about-section{
+        overflow: hidden;
         top: 16vw;
         padding-top: 20vw;
     }
@@ -87,6 +89,7 @@
 
     /*    assigment-section    */
     .assigment-section{
+        overflow: hidden;
         top: 14vw;
     }
     .sub-title{
@@ -116,6 +119,62 @@
         position: relative;
         bottom: 3vw;
         font-size: 1rem;
+    }
+
+    /*      Skill       */
+    .skill {
+        overflow: hidden;
+        top: 20vw;
+    }
+    .skill>h2{
+        font-size: 3rem;
+    }
+    .spac-timeline{
+        position: relative;
+        right: 17vw;
+    }
+    .spac-timeline li {
+        margin: 2rem 0;
+    }
+    .spac-timeline-content{
+        height: 25vw;
+        width: 40vw;
+        padding: 0;
+        margin: 0;
+    }
+    .spac-timeline-icon {
+        width: 6rem;
+        height: 6rem;
+        right: -4.5vw;
+        top: -5vw;
+    }
+    .spac-timeline-text{
+        position: relative;
+        bottom: 4vw;
+        z-index: 50;
+        right: 5vw;
+    }
+    .spac-timeline-text h5 {
+        position: relative;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 0 0 5px 0;
+    }
+    .spac-timeline-text p {
+        font-size: 0.9rem;
+    }
+    .spac-timeline li:nth-child(even) .spac-timeline-text {
+        left: 1vw;
+    }
+    .spac-timeline li:nth-child(even) .spac-timeline-icon {
+        left: -7vw;
+    }
+    .spac-timeline li:nth-child(even) .spac-timeline-content{
+        position: relative;
+        left: 36.5vw;
+    }
+    .skill-icon{
+        z-index: 50;
     }
 
     /**/
