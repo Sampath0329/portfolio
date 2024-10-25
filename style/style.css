@@ -17,7 +17,7 @@ header{
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 1001;
 }
 .logo{
     font-size: 25px;
@@ -62,7 +62,7 @@ header{
 .hero-content {
     max-width: 50%;
     position: relative;
-    top: 25vh;
+    top: 13vw;
 }
 .hero-content > h3 {
     font-size: 32px;
@@ -72,7 +72,7 @@ header{
     animation-delay: 0.7s;
 }
 .hero-content > h3:nth-of-type(2) {
-    margin-bottom: 3vh;
+    margin-bottom: 3vw;
     animation: slideTop 1s ease forwards;
     animation-delay: 1s;
 }
@@ -93,6 +93,8 @@ header{
     text-shadow: 0 0 3px #7309f8;
 }
 .hero-content > p {
+    position: relative;
+    bottom: 1.2vw;
     font-size: 20px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
@@ -141,7 +143,7 @@ header{
 }
 .hero-img {
     position: relative;
-    bottom: 250px;
+    bottom: 12vw;
     left: 5vw;
     max-width: 50%;
 
@@ -158,7 +160,7 @@ header{
     max-width: 100%;
     padding: 10px;
     position: relative;
-    bottom: 40vh;
+    bottom: 20vw;
     /*align-items: center;*/
     /*gap: 1.5rem;*/
 }
@@ -168,13 +170,13 @@ header{
 .about-img>img{
     max-width: 100%;
     position: relative;
-    bottom: 25vh;
+    bottom: 12.4vw;
 }
 
 .about-section >.about-text{
     max-width: 100%;
     position: relative;
-    top: 35vh;
+    top: 17vw;
 }
 .about-text>h2{
     font-size: 60px;
@@ -201,7 +203,7 @@ header{
 /*    assigment-section    */
 .assigment-section{
     position: relative;
-    bottom: 60vh;
+    bottom: 30vw;
     color: aliceblue;
     max-width: 100%;
     font-size: 20px;

@@ -7,10 +7,10 @@
 /*    header section    */
     .hero-section{
         position: relative;
-        top: 10vh;
+        top: 7vw;
     }
     .hero-content{
-        top: 10vh;
+        top: 6vw;
     }
     .hero-content>p{
         width: 114%;
@@ -25,7 +25,8 @@
 
     /*      About Section   */
     .about-section{
-        bottom: 50vh;
+        /*bottom: 50vh;*/
+        bottom: 30vw;
     }
     .about-section >.about-text{
         position: relative;
@@ -67,11 +68,11 @@
         left: 8vw;
     }
     .spac-timeline li:nth-child(even) .spac-timeline-icon {
-        right: 24.8vw;
+        right: 25.5vw;
     }
     .spac-timeline li:nth-child(even) .spac-timeline-content{
         position: relative;
-        left: 21vh;
+        left: 13.5vw;
     }
     /*      project     */
     .portfolio{
