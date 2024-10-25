@@ -16,13 +16,17 @@
     /*    Hero section    */
     .hero-section{
         position: relative;
+        top: 5vw;
         right: 4vw;
     }
     .hero-content {
         top: 12vw;
     }
     .hero-img>img {
-        max-width: 120%;
+        position: relative;
+        top: 12vw;
+        right: 2vw;
+        max-width: 140%;
     }
     .hero-content > h3 {
         font-size: 28px;
@@ -36,7 +40,20 @@
         font-size: 45px;
     }
     .hero-content>p{
-        width: 55vw;
-        /*background: white;*/
+        z-index: 50;
+        width: 60vw;
     }
+    /*      About Section   */
+    .about-section{
+        bottom: 15vw;
+    }
+    .about-text>h2{
+        font-size: 3rem;
+    }
+    .about-img>img{
+        max-width: 120%;
+        position: relative;
+        bottom: 0;
+    }
+
 }
