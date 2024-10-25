@@ -13,8 +13,47 @@
         margin-left: 17px;
     }
 
+    /*      Hero section     */
+    .hero-section {
+        padding: 20px;
+        position: relative;
+        top: 16vw;
 
+    }
+    .hero-content {
+        position: relative;
+        left: 2vw;
+        z-index: 10;
+    }
+    .hero-content > h3 {
+        font-size: 1.7rem;
+    }
+    .hero-content > h1 {
+        font-size: 2.5rem;
+    }
+    .hero-content > h1>span {
+        font-size: 2.5rem;
+    }
+    .hero-content > h3:nth-of-type(2) {
+        width: 115%;
+        position: relative;
+        top: 1vw;
+        margin-bottom: 4vw;
+    }
+    .hero-content > p {
+        width: 115%;
+        font-size: 1.2rem;
+    }
+    .hero-img {
+        position: relative;
+        display: flex;
+        left: -7vw;
+        bottom: 10vw;
+    }
+    .hero-img > img {
+        max-width: 125%;
+    }
 
-/**/
+        /**/
 
 }
