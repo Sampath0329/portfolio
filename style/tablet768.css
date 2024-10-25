@@ -54,6 +54,37 @@
         max-width: 125%;
     }
 
-        /**/
+    /*      About Section   */
+    .about-section{
+        top: 16vw;
+    }
+    .about-text{
+        position: relative;
+        margin-top: -20vw;
+    }
+    .about-text>h2{
+        font-size: 3rem;
+    }
+    .about-text>h4{
+        font-size: 1.5rem;
+        position: relative;
+        top: 3vw;
+    }
+    .about-text>p{
+        font-size: 1rem;
+    }
+    .about-img>img{
+        max-width: 130%;
+        bottom: 22vw;
+        right: 2vw;
+    }
+    .about-text>a{
+        position: relative;
+        z-index: 50;
+        bottom: 5vw;
+    }
+
+
+    /**/
 
 }
