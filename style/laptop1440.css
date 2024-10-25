@@ -23,5 +23,14 @@
         max-width: 120%;
     }
 
+    /*      About Section   */
+    .about-section{
+        bottom: 50vh;
+    }
+    .about-section >.about-text{
+        position: relative;
+        top: 15vh;
+    }
+
 
     }
