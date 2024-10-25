@@ -177,6 +177,48 @@
         z-index: 50;
     }
 
+    /*      project     */
+    .portfolio{
+        top: 25vw;
+    }
+    .main-text>h2{
+        font-size: 3rem;
+    }
+    .portfolio-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ensures responsive behavior */
+        gap: 20px; /* Adds space between the grid items */
+        justify-items: center; /* Centers the grid items horizontally */
+        padding: 20px;
+    }
+    .layer{
+        left: 13px;
+    }
+    .layer>h5{
+        font-size: 1.2rem;
+        line-height: 0.8;
+        width: 180px;
+        color: #5f5174;
+        text-shadow: 0 0 0 ;
+    }
+    .layer>p{
+        color: white;
+        width: 190px;
+        line-height: 1;
+        font-size: 1rem;
+    }
+    .layer>a>i{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+        /**/
+    .contact{
+        position: relative;
+        top: 50vw;
+    }
+
     /**/
 
 }
