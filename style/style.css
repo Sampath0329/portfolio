@@ -503,14 +503,18 @@ header{
 }
 .layer>h5{
     color: black;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 600;
     margin-bottom: 15px;
+    text-shadow: 0 0 5px #989393;
+
 }
 .layer>p{
     color: black;
     font-size: 1.5rem;
     line-height: 1.8;
+    font-weight: 600;
+    text-shadow: 0 0 10px #989393;
 }
 .layer>a>i{
     color: red;
