@@ -28,6 +28,9 @@
         /*bottom: 50vh;*/
         bottom: 30vw;
     }
+    .about-text>h2{
+        font-size: 5rem;
+    }
     .about-section >.about-text{
         position: relative;
         top: 15vh;

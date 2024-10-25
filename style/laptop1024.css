@@ -45,7 +45,7 @@
     }
     /*      About Section   */
     .about-section{
-        bottom: 15vw;
+        bottom: 20vw;
     }
     .about-text>h2{
         font-size: 3rem;
@@ -53,7 +53,25 @@
     .about-img>img{
         max-width: 120%;
         position: relative;
-        bottom: 0;
+        bottom: 10vw;
+    }
+    .about-text{
+        position: relative;
+        left: 4vw;
+    }
+    .about-text>h2{
+        font-size: 3rem;
+    }
+    .about-text>h4{
+        font-size: 1.5rem;
+        margin: 7px 0 15px;
+    }
+    .about-text>p{
+        max-width: 80%;
+        color: aliceblue;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        margin-bottom: 4rem;
     }
 
 }
