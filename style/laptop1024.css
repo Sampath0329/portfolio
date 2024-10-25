@@ -10,6 +10,8 @@
         margin-left: 30px;
     }
     .navbar>a{
+        position: relative;
+        left: 3vw;
         font-size: 20px;
         margin-left: 25px;
     }
@@ -25,7 +27,7 @@
     .hero-img>img {
         position: relative;
         top: 12vw;
-        right: 2vw;
+        right: 1vw;
         max-width: 140%;
     }
     .hero-content > h3 {
@@ -57,7 +59,7 @@
     }
     .about-text{
         position: relative;
-        left: 4vw;
+        left: 5vw;
     }
     .about-text>h2{
         font-size: 3rem;
@@ -104,4 +106,66 @@
         font-size: 1rem;
     }
 
+    /*      Skill       */
+    .skill {
+        bottom: 25vw;
+    }
+    .skill>h2{
+        font-size: 3rem;
+    }
+    .spac-timeline li {
+        margin: 3rem 0;
+    }
+    .spac-timeline-content{
+        height: 15vw;
+        padding: 0;
+        margin: 0;
+    }
+    .spac-timeline-icon {
+        width: 6rem;
+        height: 6rem;
+        right: -4.5vw;
+        top: -5vw;
+    }
+    .spac-timeline-text{
+        position: relative;
+        bottom: 2vw;
+    }
+    .spac-timeline-text h5 {
+        position: relative;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 0 0 5px 0;
+    }
+    .spac-timeline-text p {
+        font-size: 0.9rem;
+    }
+    .spac-timeline li:nth-child(even) .spac-timeline-icon {
+        left: -4.7vw;
+    }
+    .icon > div > i {
+        top: 2vw;
+        font-size: 4rem;
+    }
+
+    /*      project     */
+    .portfolio{
+        bottom: 35vw;
+    }
+
+    /*      Contact     */
+    .contact{
+        position: relative;
+        bottom: -4vw;
+    }
+
+    .last-text>p{
+        padding: 0;
+        margin-top: 0;
+        bottom: -9vw;
+    }
+    .top{
+        bottom: 1vw;
+        right: 5vw;
+    }
     }

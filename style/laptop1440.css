@@ -17,7 +17,7 @@
     }
     .hero-img {
         bottom: 300px;
-        left: -0.1vw;
+        left: -2vw;
     }
     .hero-img>img{
         max-width: 120%;
@@ -42,7 +42,7 @@
     }
     .assigment-list{
         display: grid;
-        grid-template-columns: repeat(auto-fill,minmax(389px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(359px,1fr));
         grid-gap: 40px;
         margin-top: 50px;
     }

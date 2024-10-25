@@ -309,7 +309,7 @@ header{
     margin: 0 auto; /* Center the entire section */
     padding: 50px;
     position: relative;
-    bottom: 55vh;
+    bottom: 27vw;
 }
 .skill>h2{
     font-size: 60px;
@@ -447,7 +447,7 @@ header{
 /*      project     */
 .portfolio{
     position: relative;
-    bottom: 47vh;
+    bottom: 25vw;
 }
 .main-text{
     padding-top: 130px;
@@ -677,6 +677,8 @@ header{
     width: 100%;
     text-align: center;
     padding: 25px 0;
+    color: #828080;
+    text-shadow: 0 0 1px white;
     /*background: rgb(7,85,91);*/
     font-weight: 300;
     margin-top: 70px;
