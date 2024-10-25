@@ -218,7 +218,27 @@
         position: relative;
         top: 50vw;
     }
+    .contact-text>h2{
+        font-size: 3rem;
+    }
+    .contact-text>h4{
+        font-size: 1.8rem;
+    }
+    .contact-text>p{
+        font-size: 1.2rem;
+    }
+    .contact-list{
+        margin-bottom: 1rem;
+        line-height: 1;
+    }
+    .contact-list>li{
+        font-size: 1.2rem;
+    }
+    .contact-list>li>i{
+        top: 0.4rem;
+    }
 
-    /**/
+
+        /**/
 
 }
