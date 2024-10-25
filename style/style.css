@@ -273,10 +273,10 @@ header{
 .read{
     display: inline-block;
     padding: 0.2vh 3vw;
-    background: #0ef;
+    background: #4A237C;
     border-radius: 40px;
     font-size: 1.3rem;
-    color: #081b29;
+    color: #ffffff;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;

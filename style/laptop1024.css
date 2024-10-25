@@ -74,4 +74,34 @@
         margin-bottom: 4rem;
     }
 
-}
+    /*    assigment-section    */
+    .assigment-section{
+        position: relative;
+        bottom: 20vw;
+    }
+    .sub-title{
+        font-size: 3rem;
+    }
+    .assigment-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+    .assigment-list>div{
+        height: 30vw;
+    }
+    .assigment-list>div>i{
+        font-size: 1.9rem;
+    }
+    .assigment-list>div>h2{
+        font-size: 1.6rem;
+    }
+    .assigment-list>div>p{
+        font-size: 1rem;
+    }
+    .read{
+        font-size: 1rem;
+    }
+
+    }
