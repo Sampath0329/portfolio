@@ -91,4 +91,17 @@
         font-weight: 900;
     }
 
-}
+    /*      Contact     */
+    .contact{
+        position: relative;
+        bottom: 20vh;
+    }
+    .last-text>p{
+        position: relative;
+        bottom: 20vh;
+    }
+    .top{
+        bottom: 10rem;
+    }
+
+    }
