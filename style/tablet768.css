@@ -57,6 +57,7 @@
     /*      About Section   */
     .about-section{
         top: 16vw;
+        padding-top: 20vw;
     }
     .about-text{
         position: relative;
@@ -84,6 +85,38 @@
         bottom: 5vw;
     }
 
+    /*    assigment-section    */
+    .assigment-section{
+        top: 14vw;
+    }
+    .sub-title{
+        font-size: 3rem;
+    }
+    .assigment-list>div{
+        height: 40vw;
+    }
+    .assigment-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(274px,1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+    .assigment-list>div>i{
+        position: relative;
+        top: 2vw;
+        font-size: 3rem;
+    }
+    .assigment-list>div>h2{
+        font-size: 1.8rem;
+    }
+    .assigment-list>div>p{
+        font-size: 1rem;
+    }
+    .read{
+        position: relative;
+        bottom: 3vw;
+        font-size: 1rem;
+    }
 
     /**/
 
