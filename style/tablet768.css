@@ -237,7 +237,10 @@
     .contact-list>li>i{
         top: 0.4rem;
     }
-
+    .last-text{
+        position: relative;
+        top: 40vw;
+    }
 
         /**/
 
