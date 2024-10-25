@@ -38,11 +38,39 @@
     }
     .assigment-list{
         display: grid;
-        /*grid-template-columns: repeat(auto-fill,minmax(259px,1fr));*/
         grid-template-columns: repeat(auto-fill,minmax(389px,1fr));
-        /*grid-template-columns: repeat(auto-fill,minmax(500px,1fr));*/
         grid-gap: 40px;
         margin-top: 50px;
     }
 
+    /*      Skill       */
+    .skill {
+        bottom: 75vh;
+    }
+    .spac-timeline{
+        position: relative;
+        right: 6vw;
+    }
+    .spac-timeline-content {
+        width: 65%;
+    }
+    .spac-timeline-icon {
+        right: -60px;
+        top: -80px;
+    }
+    .spac-timeline-text p,h5 {
+        position: relative;
+        right: 5vw;
+    }
+    .spac-timeline li:nth-child(even) .spac-timeline-text {
+        position: relative;
+        left: 8vw;
+    }
+    .spac-timeline li:nth-child(even) .spac-timeline-icon {
+        right: 24.8vw;
+    }
+    .spac-timeline li:nth-child(even) .spac-timeline-content{
+        position: relative;
+        left: 21vh;
+    }
     }

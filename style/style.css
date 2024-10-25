@@ -239,42 +239,46 @@ header{
     1px 1px 20px #7320db;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 .assigment-list>div>i{
     color:#4A237C;
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 3rem;
+    margin-bottom: 3vh;
     display: flex;
     justify-content: center;
 
 }
 .assigment-list>div>h2{
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 2vh;
     text-align: center;
 }
-.assigment-list>div>a{
-    text-decoration: none;
-    color: #000000;
-    font-size: 12px;
-    margin-top: 20px;
-
-
+.assigment-list>div>p{
+    font-size: 1.2rem;
 }
+/*.assigment-list>div>a{*/
+/*    text-decoration: none;*/
+/*    color: #000000;*/
+/*    font-size: 2rem;*/
+/*    margin-top: 20px;*/
+
+
+/*}*/
 .read{
     display: inline-block;
-    padding: 10px 28px;
+    padding: 0.2vh 3vw;
     background: #0ef;
     border-radius: 40px;
-    font-size: 16px;
+    font-size: 1.3rem;
     color: #081b29;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
+    margin-top: 5vh;
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
