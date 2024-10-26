@@ -82,5 +82,24 @@
         position: relative;
         left: 16vw;
     }
+    /*      About Section   */
+
+    .about-section{
+        display: flex;
+        max-width: 100%;
+        padding-top: 100px;
+        flex-direction: column;
 
     }
+    .about-section>.about-img{
+        max-width: 150%;
+    }
+    .about-text>h2{
+        position: absolute;
+        text-align: center;
+        bottom: 290vw;
+        left: 30vw;
+        font-size: 2rem;
+    }
+/*    */
+}
